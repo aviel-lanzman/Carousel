@@ -1,6 +1,7 @@
 var slider = tns({
   container: ".my-slider",
   mode: "carousel",
+  autoplayTimeout:3000,
   autoplay: true,
   gutter: 4,
   items: 1,
